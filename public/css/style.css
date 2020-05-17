@@ -1,0 +1,51 @@
+html, body {
+    background-color: #fff;
+    color: #636b6f;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+color: unset;
+}
+
+#home {
+    display: grid;
+    grid-gap: 70px;
+    grid-template-columns: repeat(auto-fit,200px);
+    justify-content: center;
+}
+
+#article {
+    box-shadow: darkgray 1px 1px 7px;
+    padding: 10px;
+}
+
+#product {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit,34vw);
+    justify-content: center;
+}
+
+article p {
+    white-space: pre-line;
+}
+
+.badge {
+    top: -8px;
+    left: -5px;
+    position: relative;
+    border-radius: 50px;
+    font-size: 60%;
+}
+
+.delBtn {
+    z-index: 2;
+    top: -15px;
+    right: -17px;
+    font-size: 17px;
+}
+
